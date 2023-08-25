@@ -9,6 +9,12 @@ Du skal bruge din HTML-kode fra HTML Basecamp #1.
 - Hvis der er billeder på din hjemmeside skal de styles, så de ikke fylder alt for meget. Du skal være opmærksom på billedernes aspect-ratio.
 - Hvis du har en tabel eller en liste på din hjemmeside, skal du bruge pseudo-selectors til at vælge den sidste række eller sidste liste-element og style det anderledes end de øvrige elementer (fx en anden baggrundsfarve).
 - Få to ting til at stå ved siden af hinanden. Du skal bruge den værste metode du kan tænke dig frem til, og du skal forklare hvorfor det er en dårlig metode.
+
+<!-- Jeg ved ikke om det er den værste metode, men float er bestemt ikke godt, når man tænker på, at vi har flex og grid.
+Jeg vil nok (næsten) altid benytte flex fremfor float.
+
+Flex gør det nemmere at positionere child-elementer og er samtidigt meget responsivt. Man kan også omarrangere elementer med flex uden at skulle ændre i HTML. Der er generelt mange flere muligheder med flex. Float kan hurtigt skabe uforudsete problemer og få andre elementer til at rykke sig. -->
+
 - Lav afstand imellem flere elementer.
 - Ændr farven på en stykke tekst.
 

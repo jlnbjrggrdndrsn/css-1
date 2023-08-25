@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: aquamarine;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2, h4 {
+  font-family:'Roboto', sans-serif;
+  font-size: 2em;
+  margin-bottom: 3.45em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 20vw;
+}
+
+nav ul li:last-child {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+article p {
+  color: blue;
+}
+
+li {
+  padding: 10px;
+}
